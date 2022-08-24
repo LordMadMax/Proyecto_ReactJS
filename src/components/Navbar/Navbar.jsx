@@ -1,12 +1,12 @@
 import React from 'react'
-
+import CartWidget from './CartWidget'
 
 
 const navbar = () => {
   return (
     <div>
 
-        <h1>VETERINARIA BASSET</h1>
+        <h1>VETERINARIA</h1>
         <div className="container__nav">
                 <nav id="nav">
                     <ul>
@@ -14,11 +14,12 @@ const navbar = () => {
                         <li><a href="https://www.google.com/">PEDIDOS</a></li>
                         <li><a href="https://www.google.com/">ADOPCIONES</a></li>
                         <li><a href="https://www.google.com/">CONTACTANOS</a></li>
+                        <CartWidget />
                     </ul>
+                    
                 </nav>
-                <div className="btn__menu" id="btn_menu"><i className="fas fa-bars"></i></div>
-            </div>
-
+                             
+          </div>
 
     </div>
   )
