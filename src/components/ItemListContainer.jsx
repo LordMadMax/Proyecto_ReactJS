@@ -1,15 +1,18 @@
-import React from 'react'
+import React from 'react';
+import ItemList from './ItemList';
 
-const ItemListContainer = (propiedad) => {
+const ItemListContainer = (props) => {
 
   return (
     <div>
         
         <h1>BASSET HOUND</h1>
-        {alert(propiedad.saludo)}
+        {alert(props.saludo)}
+
+        <ItemList />
         
     </div>
   )
 }
 
-export default ItemListContainer
+export default ItemListContainer;

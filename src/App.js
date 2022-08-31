@@ -1,5 +1,4 @@
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css' 
 import Navbar from './components/Navbar/Navbar'
 import ItemListContainer from './components/ItemListContainer';
@@ -28,6 +27,8 @@ function App() {
         stock={7}
         onAdd={onAdd}
       />
+
+      
     
 
     </div>
