@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Item from './Item';
 import RacionPerro from '../img/Racion Perro.jpg';
 import RacionGato from '../img/Racion Gato.jpg';
@@ -11,7 +11,7 @@ import Transportador from '../img/Transportador.jpeg';
 const ItemList = () => {
    
       
-    const [itemList, setItemList] = useState ([
+    const [itemList, /* setItemList */] = useState ([
         {
             id:1,
             nombre: "Racion de Perros 3kg.",
@@ -112,7 +112,7 @@ const ItemList = () => {
 
     ]);
 
-    useEffect(() =>{
+    /* useEffect(() =>{
         const getItem = new Promise ((res, rej) => {
             setTimeout (() =>{
                 res(Item);
@@ -131,7 +131,7 @@ const ItemList = () => {
                 console.log('Renderizado correctamente')
             })
            
-    });
+    }); */
             
   return (
     <div className="row">
