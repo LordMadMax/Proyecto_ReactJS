@@ -81,7 +81,7 @@ const productos = [
         nombre: "Arena de Gatos 25kg.",
         precio: 1990,
         stock: 8,
-        category: "varios",
+        category: "gatos",
         img: ArenaGato,
     },
     {
