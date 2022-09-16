@@ -15,7 +15,7 @@ const navbar = () => {
                         <li><Link to="/category/perros">PERROS</Link></li>
                         <li><Link to="/category/gatos">GATOS</Link></li>
                         <li><Link to="/category/varios">VARIOS</Link></li>
-                        <CartWidget />
+                        <Link to="/cart"><CartWidget /></Link>
                     </ul>
                     
                 </nav>
