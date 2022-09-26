@@ -7,7 +7,7 @@ import { getFirestore, doc, getDoc} from 'firebase/firestore';
 export const ItemDetailContainer = () => {
     const [data, setData] = useState({});
     const {itemId} = useParams();
-    /* console.log(detalleId) */
+    
     useEffect(() => {
         const querydb = getFirestore();
         const queryDoc = doc(querydb, 'productos', itemId);
